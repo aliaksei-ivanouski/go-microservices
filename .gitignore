@@ -5,6 +5,12 @@
 *.so
 *.dylib
 
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
 # Test binary, built with `go test -c`
 *.test
 
@@ -13,3 +19,12 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# data folders
+project/caddy_data/
+project/caddy_config/
+project/db-data/
