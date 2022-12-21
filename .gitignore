@@ -25,6 +25,6 @@
 Thumbs.db
 
 # data folders
-project/caddy_data/
-project/caddy_config/
-project/db-data/
+**/caddy_data/
+**/caddy_config/
+**/db-data/
