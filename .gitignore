@@ -28,3 +28,6 @@ Thumbs.db
 **/caddy_data/
 **/caddy_config/
 **/db-data/
+
+# built files
+**/*App
