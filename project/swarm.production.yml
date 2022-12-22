@@ -3,7 +3,7 @@ version: '3'
 services:
 
   caddy:
-    image: 'alexis220382/micro-caddy-production:1.0.0'
+    image: 'alexis220382/micro-caddy-production:1.0.1'
     deploy: 
       mode: replicated
       replicas: 1
@@ -23,7 +23,7 @@ services:
       mode: replicated
       replicas: 1
     environment:
-      BROKER_URL: "http://backend"
+      BROKER_URL: "http://broker.feedsbutton.com"
 
   broker-service:
     image: alexis220382/broker-service:1.0.1
