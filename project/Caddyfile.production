@@ -21,13 +21,14 @@
 	}
 }
 
-swarm.feedsbutton.com:80 {
+swarm.feedsbutton.com {
 	encode zstd gzip
 	import static
+	import security
 
 	reverse_proxy  http://front-end:8081
 }
 
-broker.feedsbutton.com:80 {
+broker.feedsbutton.com {
 	reverse_proxy http://broker-service:8080
 }

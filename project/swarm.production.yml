@@ -3,7 +3,7 @@ version: '3'
 services:
 
   caddy:
-    image: 'alexis220382/micro-caddy-production:1.0.2'
+    image: 'alexis220382/micro-caddy-production:1.0.3'
     deploy: 
       mode: replicated
       replicas: 1
